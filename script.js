@@ -66,3 +66,165 @@ function validoLogin(){
         alert("Passwordi gabim");
     }
 }
+
+// validimi i registeer form
+function validate(){
+    var emri=document.getElementById("emri").value;
+    var regex=/^[a-zA-Z]{3,}$/
+
+    if(emri.trim()==""){
+        alert("Shkruaj emrin: ");
+    }
+    else if((regex.test(emri))){
+        alert("Emri pranohet");
+    }
+    else{
+        alert("Emri nuk pranohet");
+    }
+
+    var mbiemri=document.getElementById("mbiemri").value;
+    var regex=/^[a-zA-Z]{3,}$/
+
+    if(mbiemri.trim()==""){
+        alert("Shkruaj mbiemrin: ");
+    }
+    else if((regex.test(mbiemri))){
+        alert("Mbiemri pranohet");
+    }
+    else{
+        alert("Mbiemri nuk pranohet");
+    }
+
+    var emaili=document.getElementById("email").value;
+    var regex=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+
+    if(emaili.trim()==""){
+        alert("Shkruaj nje email: ");
+    }
+    else if((regex.test(emaili))){
+        alert("Sumbitted succesfully");
+    }
+    else{
+        alert("Wrong email");
+    }
+
+    var numri=document.getElementById("nrtel").value;
+    var regex=/^0+4+[3-5 | 8-9]+[0-9]{6}$/
+
+    if(numri.trim()==""){
+        alert("Shkruaj numrin e telefonit");
+    }
+    else if((regex.test(numri))){
+        alert("Numri pranohet");
+    }
+    else{
+        alert("Numri gabim");
+    }
+
+    var passwordi=document.getElementById("password").value;
+    var regex=/^[a-zA-Z0-9!@#$%^&*]{6,16}$/
+
+    if(passwordi.trim()==""){
+        alert("Shkruaj passwordin");
+    }
+    else if((regex.test(passwordi))){
+        alert("Password i sakte");
+    }
+    else{
+        alert("Passwordi gabim");
+    }
+
+    var passwordi=document.getElementById("password1").value;
+    var regex=/^[a-zA-Z0-9!@#$%^&*]{6,16}$/
+
+    if(passwordi.trim()==""){
+        alert("Shkruaj passwordin");
+    }
+    else if((regex.test(passwordi))){
+        alert("Password i sakte");
+    }
+    else{
+        alert("Passwordi gabim");
+    }
+
+
+
+}
+
+//validimi i contacform
+
+function valido(){
+
+    var emri=document.getElementById("FirstName").value;
+    var regex=/^[a-zA-Z]{3,}$/
+
+    if(emri.trim()==""){
+        alert("Shkruaj emrin: ");
+    }
+    else if((regex.test(emri))){
+        alert("Emri pranohet");
+    }
+    else{
+        alert("Emri nuk pranohet");
+    }
+
+    var mbiemri=document.getElementById("lasttName").value;
+    var regex=/^[a-zA-Z]{3,}$/
+
+    if(mbiemri.trim()==""){
+        alert("Shkruaj mbiemrin: ");
+    }
+    else if((regex.test(mbiemri))){
+        alert("Mbiemri pranohet");
+    }
+    else{
+        alert("Mbiemri nuk pranohet");
+    }
+
+    var emaili=document.getElementById("email").value;
+    var regex=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+
+    if(emaili.trim()==""){
+        alert("Shkruaj nje email: ");
+    }
+    else if((regex.test(emaili))){
+        alert("Sumbitted succesfully");
+    }
+    else{
+        alert("Wrong email");
+    }
+
+    var numri=document.getElementById("mobile").value;
+    var regex=/^0+4+[3-5 | 8-9]+[0-9]{6}$/
+
+    if(numri.trim()==""){
+        alert("Shkruaj numrin e telefonit");
+    }
+    else if((regex.test(numri))){
+        alert("Numri pranohet");
+    }
+    else{
+        alert("Numri gabim");
+    }
+    
+    var tekst=document.getElementById("text").value;
+    var regex=/^[a-zA-Z0-9]{3,}$/
+
+    if(tekst.trim()==""){
+        alert("Shkruaj nje kerkes: ");
+    }
+    else if((regex.test(tekst))){
+        alert("Kerkesa pranohet");
+    }
+    else{
+        alert("Kerkesa nuk pranohet");
+    }
+
+
+
+
+   
+
+
+}
+
