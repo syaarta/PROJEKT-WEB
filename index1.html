@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- header fillon ketu -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#packages">packages</a>
+            <a href="#book">book</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+<!-- perfundimi i header -->
+
+<!-- fillimi i login -->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>login</h3>
+            <input type="email"  class="box" placeholder="enter your email" id="email">
+            <input type="password" class="box" placeholder="enter your password" id="password">
+            <input type="submit" value="login now" class="btn"  onclick="validoLogin()">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="register.html">register now</a></p>
+
+        </form>
+    </div>
+<!-- perfundimi i home -->
+
+    
+<!-- fillimi i home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#packages" class="btn">discover more</a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    
+    </section>
+
+<!-- perfundimi i home -->
+
+<!-- filllimi i about  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> 
+        <span>a</span> 
+        <span>b</span> 
+        <span>o</span> 
+        <span>u</span> 
+        <span>t</span> 
+        <span>u</span> 
+        <span>s</span> 
+    </h1>
+   
+    <div class="row">
+
+        <div class="image">
+            <img src="images/image18.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>we take care of your traveling</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
+            <a href="aboutus.html" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+  
+
+</section>
+
+<!-- perfundimi i about -->
+    
+<!-- fillimi i packages -->
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>  
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/image2.jpg " alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Santorini</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, dolorem excepturic</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$220.00<span>$280.00</span></div>
+                    <a href="#book" class="btn">Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/image3.jpg "  alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>New York</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, dolorem excepturic</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">220.00<span>280.00</span></div>
+                    <a href="#book" class="btn">Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/image4.jpg "  alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>London</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, dolorem excepturic</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$110.00<span>$150.00</span></div>
+                    <a href="#book" class="btn">Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/image5.jpg "  alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Amsterdam</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, dolorem excepturic</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00<span>$120.00</span></div>
+                    <a href="#book" class="btn">Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/image6.jpg "  alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Milan</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, dolorem excepturic</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/image7.webp "  alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Monaco</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, dolorem excepturic</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$110.00<span>$150.00</span></div>
+                    <a href="#book" class="btn">Book now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- perfundimi i packages -->
+</body>
+</html>
