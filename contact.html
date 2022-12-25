@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>login</h3>
+            <input type="email"  class="box" placeholder="enter your email" id="email">
+            <input type="password" class="box" placeholder="enter your password" id="password">
+            <input type="submit" value="login now" class="btn"  onclick="validoLogin()">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="register.html">register now</a></p>
+
+        </form>
+    
+    </div>
+
+    <div class="container">
+        <form>
+            <h1><strong>Get in Touch</strong></h1> <br>
+            <br>
+            <br>
+            <br>
+            <input type="text" id="FirstName" placeholder="FirstName" required>
+            <input type="text" id="lasttName" placeholder="LastName" required>
+            <input type="email"id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <br>
+            <h4>Type your message Here...</h4>
+            <textarea type="text"  id="text" required></textarea>
+            <input type="submit" value="SEND  " id="button" onclick="valido()">
+        </form>
+    </div>
+    <section class="footer">
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor, sit amet <br>consectetur adipisicing elit.<br> Dolorem magnam deserunt voluptas, quod ab itaque? <br>Distinctio est, 
+                vero ullam modi.</p>
+            </div>
+            <div class="box">
+                <h3>Branch locations</h3>
+                <a href="#">India</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit">created by <span>erita & syarta </span>| all rights reserved!</h1>
+    
+    </section>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
